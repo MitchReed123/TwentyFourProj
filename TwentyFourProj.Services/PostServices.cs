@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace TwentyFourProj.Services
 {
-    public class Class1
+    public class PostServices
     {
+        private readonly Guid _userId;
+
+        public PostServices(Guid userId)
+        {
+            _userId = userId;
+        }
     }
 }
