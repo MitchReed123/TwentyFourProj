@@ -89,6 +89,22 @@
     <Compile Include="Migrations\202008312126007_AddedDbSets.Designer.cs">
       <DependentUpon>202008312126007_AddedDbSets.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008312233334_TokenMigration.cs" />
+    <Compile Include="Migrations\202008312233334_TokenMigration.Designer.cs">
+      <DependentUpon>202008312233334_TokenMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009010044227_PostMigration.cs" />
+    <Compile Include="Migrations\202009010044227_PostMigration.Designer.cs">
+      <DependentUpon>202009010044227_PostMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009010121540_Test.cs" />
+    <Compile Include="Migrations\202009010121540_Test.Designer.cs">
+      <DependentUpon>202009010121540_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009011316193_Testing1.cs" />
+    <Compile Include="Migrations\202009011316193_Testing1.Designer.cs">
+      <DependentUpon>202009011316193_Testing1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reply.cs" />
     <Compile Include="Like.cs" />
     <Compile Include="Migrations\202008312118452_Testing.cs" />
@@ -111,6 +127,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008312126007_AddedDbSets.resx">
       <DependentUpon>202008312126007_AddedDbSets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008312233334_TokenMigration.resx">
+      <DependentUpon>202008312233334_TokenMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009010044227_PostMigration.resx">
+      <DependentUpon>202009010044227_PostMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009010121540_Test.resx">
+      <DependentUpon>202009010121540_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009011316193_Testing1.resx">
+      <DependentUpon>202009011316193_Testing1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

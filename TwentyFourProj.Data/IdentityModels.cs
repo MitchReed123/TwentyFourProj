@@ -35,7 +35,7 @@ namespace TwentyFourProj.Data
 
 
         public DbSet<Post> Posts { get; set; }
-        //public DbSet<User> users { get; set; }
+        public DbSet<User> User { get; set; }
         public DbSet<Like> Likes { get; set; }
         public DbSet<Reply> Replies { get; set; }
 

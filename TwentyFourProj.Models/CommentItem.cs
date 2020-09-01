@@ -7,12 +7,10 @@ using TwentyFourProj.Data;
 
 namespace TwentyFourProj.Models
 {
-    public class PostCreate
+    public class CommentItem
     {
-        //public User user { get; set; }
-        public User Author { get; set; }
         public int Id { get; set; }
-        public string Title { get; set; }
         public string Text { get; set; }
+        public User Auther { get; set; }
     }
 }

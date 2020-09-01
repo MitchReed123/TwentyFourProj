@@ -11,11 +11,9 @@ namespace TwentyFourProj.Data
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        public Guid UserId { get; set; }
         public string Title { get; set; }
-        [Required]
         public string Text { get; set; }
-        [Required]
-        public User Author { get; set; }
+        //public User Author { get; set; }
     }
 }
